@@ -1,0 +1,25 @@
+{
+  "name": "session-registration-setup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "session-registration-setup",
+  "author": "Bastian Kroggel",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "gatsby": "^3.0.1",
+    "gatsby-plugin-emotion": "^6.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
