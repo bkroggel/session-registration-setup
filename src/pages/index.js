@@ -3,6 +3,7 @@ import Link from "../components/link"
 import { getLocalStorage } from "../services/localStorage"
 import UserForm from "../components/elements/userForm"
 import { css } from "@emotion/react"
+import Events from "../components/elements/events"
 
 const Index = () => {
   const [userInput, setUserInput] = useState(false)
@@ -51,6 +52,10 @@ const Index = () => {
         {userInput ? (
           <UserForm currentUser={currentUser} clickHandler={handleFormStatus} />
         ) : null}
+      </div>
+      <div>
+        <h2>Events</h2>
+        <Events />
       </div>
     </div>
   )
